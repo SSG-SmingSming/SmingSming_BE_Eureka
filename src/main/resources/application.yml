@@ -1,0 +1,16 @@
+server:
+  port: 8762
+
+spring:
+  application:
+    name: discoveryservice
+
+
+# register-with-eureka: Eureka서버에 등록 여부 false로 설정
+# fetch-registry: registry에 있는 정보 동기화 여부 설정
+eureka:
+  client:
+    register-with-eureka: 'false'
+    fetch-registry: 'false'
+
+
